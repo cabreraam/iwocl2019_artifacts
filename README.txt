@@ -66,12 +66,13 @@ Data & File Overview
 
 This is version 1 of the artifacts. 
 
-There are 129 files total, organized in the current directory and 54 
+There are 132 files total, organized in the current directory and 46 
 sub-directories. 
 
 In the current directory:
 
 	- README.txt - this file
+	- README.md - README for github repository 
 	- code - the code kernels used in the project
 	- data - all of the data used to produce the graphs and figures in the paper
 
