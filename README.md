@@ -1,6 +1,6 @@
 
 # Exploring Portability and Performance of OpenCL FPGA Kernels on Intel HARPv2 
-ring Portability and Performance of OpenCL FPGA Kernels on Intel HARPv2 
+Exploring Portability and Performance of OpenCL FPGA Kernels on Intel HARPv2 
 
 This repository contains the most recent version of the artifacts (code and 
 data) associated with our IWOCL'19 paper. 
