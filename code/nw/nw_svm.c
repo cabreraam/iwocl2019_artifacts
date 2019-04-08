@@ -25,7 +25,7 @@
 #include <string>
 #include <assert.h>
 #include <CL/cl.h> // don't know if necessary just yet
-#include "../../common/timer.h"
+#include "../common/timer.h"
 #include "../common/opencl_util.h"
 
 // Just HARP
