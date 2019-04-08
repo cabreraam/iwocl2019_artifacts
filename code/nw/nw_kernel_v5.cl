@@ -194,8 +194,6 @@ __kernel void nw_kernel1(__global int* restrict reference,
 			//anything comp_* is trying to figure out which elt in the scoring
 			//matrix that we're trying to executre.
 			int comp_block_row = (BSIZE + block_row - i) & (BSIZE - 1); // read_col > 0 is skipped since it has area overhead and removing it is harmless
-			//int comp_row = block_offset + comp_block_row; //TODO: remove variable, NEVER FUCKING USED
-			//int comp_col = comp_col_offset + i; //TODO: remove variable, NEVER FUCKING USED
 
 			//anything read_* is trying to figure out where in reference matrix
 			//to read correct value

@@ -118,7 +118,6 @@ int maximum(int a, int b, int c)
 
 // build the context and command
 // queue from like the OpenCL TACC example
-// TODO: factor out all of the "if status checks"
 static int initialize()
 {
 
@@ -354,7 +353,6 @@ int main(int argc, char **argv)
 	char const * kernel_nw2 = "nw_kernel2";
 	
 	int nworkitems, workgroupsize = 0;
-	// TODO: investigate BSIZE
 	nworkitems = BSIZE;
 
 	if (nworkitems < 1 || workgroupsize < 0)

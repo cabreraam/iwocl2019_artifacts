@@ -38,11 +38,9 @@ endif
 #INC_DIRS := host/inc ../common_harp/inc ../extlibs/inc 
 INC_DIRS := ../common_harp/inc 
 
-#TODO: this
 # All include files.
 INC_FILES := $(foreach D,$(INC_DIRS),$(wildcard $D/*.h))
 
-#TODO: this
 # Source files.
 SRCS := $(wildcard ../common_harp/src/AOCLUtils/*.cpp) $(wildcard host/src/*.cpp)
 
@@ -52,7 +50,6 @@ LIBS :=
 # Compiler.
 #CXX := g++
 
-#TODO: this
 # OpenCL compile and link flags.
 AOCL_COMPILE_CONFIG := $(shell aocl compile-config)
 AOCL_LINK_CONFIG := $(shell aocl link-config)

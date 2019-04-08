@@ -90,7 +90,6 @@ static void dump_error(const char *str, cl_int status)
 	printf("Error code: %d\n", status);
 }
 
-// TODO: include freeResources()
 static void freeResources()
 {
 	// free kernel resources
@@ -279,7 +278,6 @@ void nw_optimized(int *input_itemsets, int *output_itemsets, int *referrence,
 }
 // HARP doesn't report a device_id, so we'll build the context and command
 // queue from like the OpenCL TACC example
-// TODO: factor out all of the "if status checks"
 static int initialize()
 {
 
@@ -457,7 +455,6 @@ int main(int argc, char **argv)
 	char const * kernel_nw2 = "nw_kernel2";
 	
 	int nworkitems, workgroupsize = 0;
-	// TODO: investigate BSIZE
 	nworkitems = BSIZE;
 
 	if (nworkitems < 1 || workgroupsize < 0)
@@ -924,7 +921,6 @@ int main(int argc, char **argv)
 	}
 #endif
 
-//TODO: Verify that the output of the HARP gives you the right answer
 #ifdef VERIFY_
 	/*int *input_itemsets_cpu = (int *)alignedMalloc(data_size * sizeof(int));
 	int *output_itemsets_cpu = (int *)alignedMalloc(data_size * sizeof(int));
