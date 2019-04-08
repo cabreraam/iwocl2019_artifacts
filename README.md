@@ -5,9 +5,8 @@ ring Portability and Performance of OpenCL FPGA Kernels on Intel HARPv2
 This repository contains the most recent version of the artifacts (code and 
 data) associated with our IWOCL'19 paper. 
 
-WU OpenScholarship (Placeholder)
-[here](https://doi.org/10.7936/m2yq-a123) for 
-more details.
+The snapshot of the code at the time of publication is hosted at [WU 
+OpenScholarship](https://doi.org/10.7936/m2yq-a123) for 
 
 
 ## Build Information 
