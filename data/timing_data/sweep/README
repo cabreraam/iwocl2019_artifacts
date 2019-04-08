@@ -1,0 +1,10 @@
+This contains all of the data for sweeping the parameters for kernel version
+v5.
+
+*.txt files hold the raw output from the program for 100 execution runs.
+*.csv files hold the execution times extracted from the .txt files.
+
+The first number in the data_*.csv file titles is the BSIZE parameter for those 
+runs.
+The second number in the data_*.csv file titles is the PAR parameter for those
+runs.

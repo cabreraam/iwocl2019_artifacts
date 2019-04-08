@@ -1,0 +1,2 @@
+version=$1
+./nw_harp_test 23040 10 1 ${version} 

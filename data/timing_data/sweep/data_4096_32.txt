@@ -1,0 +1,2300 @@
+BSIZE: 4096, PAR: 32, run 0
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=1647734152
+
+Write to device done in 399.924 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 673.407 ms.
+
+Computation done in 306.881 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 1
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=467336584
+
+Write to device done in 407.370 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 663.645 ms.
+
+Computation done in 317.895 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 2
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=2091822472
+
+Write to device done in 399.224 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 666.655 ms.
+
+Computation done in 304.437 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 3
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=-1641714296
+
+Write to device done in 399.703 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 672.079 ms.
+
+Computation done in 296.837 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 4
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=-629781112
+
+Write to device done in 477.589 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 669.101 ms.
+
+Computation done in 307.285 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 5
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=-453956216
+
+Write to device done in 449.012 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 666.039 ms.
+
+Computation done in 309.333 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 6
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=-9142904
+
+Write to device done in 398.098 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 673.395 ms.
+
+Computation done in 313.967 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 7
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=996539784
+
+Write to device done in 407.941 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 664.365 ms.
+
+Computation done in 314.145 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 8
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=2023193992
+
+Write to device done in 398.230 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 674.348 ms.
+
+Computation done in 305.133 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 9
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=-254882424
+
+Write to device done in 403.088 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 665.282 ms.
+
+Computation done in 307.209 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 10
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=-1308279416
+
+Write to device done in 405.415 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 667.726 ms.
+
+Computation done in 298.759 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 11
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=-1958765176
+
+Write to device done in 465.190 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 680.693 ms.
+
+Computation done in 302.094 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 12
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=394493320
+
+Write to device done in 400.874 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 673.243 ms.
+
+Computation done in 316.001 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 13
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=101555592
+
+Write to device done in 402.789 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 674.670 ms.
+
+Computation done in 314.174 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 14
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=1547218312
+
+Write to device done in 403.630 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 666.812 ms.
+
+Computation done in 308.811 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 15
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=1281789320
+
+Write to device done in 409.783 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 672.878 ms.
+
+Computation done in 311.330 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 16
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=-417358456
+
+Write to device done in 397.547 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 674.125 ms.
+
+Computation done in 308.974 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 17
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=-1794507384
+
+Write to device done in 407.716 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 663.684 ms.
+
+Computation done in 299.547 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 18
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=1659817352
+
+Write to device done in 476.940 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 665.005 ms.
+
+Computation done in 306.885 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 19
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=2078551432
+
+Write to device done in 406.182 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 667.145 ms.
+
+Computation done in 299.217 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 20
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=-74453624
+
+Write to device done in 410.335 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 664.470 ms.
+
+Computation done in 312.047 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 21
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=-2029359736
+
+Write to device done in 400.026 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 673.913 ms.
+
+Computation done in 302.474 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 22
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=2005241224
+
+Write to device done in 396.482 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 674.782 ms.
+
+Computation done in 304.550 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 23
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=136174984
+
+Write to device done in 407.862 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 665.445 ms.
+
+Computation done in 314.092 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 24
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=-2013975160
+
+Write to device done in 403.261 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 662.517 ms.
+
+Computation done in 302.638 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 25
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=1650961800
+
+Write to device done in 398.973 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 668.703 ms.
+
+Computation done in 309.180 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 26
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=1334549896
+
+Write to device done in 455.747 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 672.885 ms.
+
+Computation done in 312.234 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 27
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=1328205192
+
+Write to device done in 402.418 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 666.043 ms.
+
+Computation done in 310.561 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 28
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=2109250952
+
+Write to device done in 473.598 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 674.405 ms.
+
+Computation done in 304.337 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 29
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=1700842888
+
+Write to device done in 402.233 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 665.511 ms.
+
+Computation done in 308.014 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 30
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=-1011274360
+
+Write to device done in 406.258 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 667.286 ms.
+
+Computation done in 303.329 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 31
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=-232329848
+
+Write to device done in 410.485 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 665.955 ms.
+
+Computation done in 309.278 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 32
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=-942043768
+
+Write to device done in 396.780 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 675.245 ms.
+
+Computation done in 302.886 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 33
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=-1385947768
+
+Write to device done in 408.713 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 659.858 ms.
+
+Computation done in 298.348 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 34
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=-769397368
+
+Write to device done in 464.643 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 704.536 ms.
+
+Computation done in 304.905 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 35
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=432786824
+
+Write to device done in 408.106 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 665.928 ms.
+
+Computation done in 318.111 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 36
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=1079680392
+
+Write to device done in 397.764 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 673.803 ms.
+
+Computation done in 312.559 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 37
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=1757031816
+
+Write to device done in 406.005 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 667.223 ms.
+
+Computation done in 303.862 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 38
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=2130951560
+
+Write to device done in 403.303 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 666.329 ms.
+
+Computation done in 303.749 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 39
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=1390087560
+
+Write to device done in 440.278 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 661.520 ms.
+
+Computation done in 310.944 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 40
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=-915804792
+
+Write to device done in 408.802 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 664.953 ms.
+
+Computation done in 302.386 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 41
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=1534107016
+
+Write to device done in 458.426 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 673.278 ms.
+
+Computation done in 307.945 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 42
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=-367194744
+
+Write to device done in 409.680 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 662.789 ms.
+
+Computation done in 309.443 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 43
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=-1832362616
+
+Write to device done in 406.953 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 672.709 ms.
+
+Computation done in 299.612 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 44
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=-1421070968
+
+Write to device done in 443.470 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 666.218 ms.
+
+Computation done in 296.947 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 45
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=-1640006264
+
+Write to device done in 398.358 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 673.854 ms.
+
+Computation done in 296.757 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 46
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=-314901112
+
+Write to device done in 407.476 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 663.831 ms.
+
+Computation done in 312.186 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 47
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=-1632703096
+
+Write to device done in 405.998 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 665.130 ms.
+
+Computation done in 299.201 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 48
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=-2115175032
+
+Write to device done in 406.934 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 663.310 ms.
+
+Computation done in 302.162 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 49
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=-712069752
+
+Write to device done in 398.989 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 665.661 ms.
+
+Computation done in 307.142 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 50
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=-1992831608
+
+Write to device done in 402.539 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 665.382 ms.
+
+Computation done in 300.935 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 51
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=1170587016
+
+Write to device done in 426.137 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 667.791 ms.
+
+Computation done in 312.496 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 52
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=218406280
+
+Write to device done in 397.756 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 675.456 ms.
+
+Computation done in 315.636 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 53
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=-948392568
+
+Write to device done in 438.336 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 667.517 ms.
+
+Computation done in 302.940 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 54
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=1189453192
+
+Write to device done in 399.359 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 670.634 ms.
+
+Computation done in 313.117 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 55
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=228429192
+
+Write to device done in 401.044 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 674.916 ms.
+
+Computation done in 314.209 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 56
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=1013890440
+
+Write to device done in 400.841 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 664.931 ms.
+
+Computation done in 313.911 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 57
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=82361736
+
+Write to device done in 400.817 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 667.381 ms.
+
+Computation done in 313.214 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 58
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=213355912
+
+Write to device done in 396.703 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 674.571 ms.
+
+Computation done in 315.477 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 59
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=-1164132984
+
+Write to device done in 443.346 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 665.803 ms.
+
+Computation done in 295.882 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 60
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=-1996792440
+
+Write to device done in 401.631 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 672.574 ms.
+
+Computation done in 300.628 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 61
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=-1465152120
+
+Write to device done in 396.883 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 674.665 ms.
+
+Computation done in 297.938 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 62
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=1624173960
+
+Write to device done in 405.476 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 664.489 ms.
+
+Computation done in 309.676 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 63
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=-1706824312
+
+Write to device done in 411.489 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 664.854 ms.
+
+Computation done in 297.282 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 64
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=1298148744
+
+Write to device done in 406.420 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 667.255 ms.
+
+Computation done in 311.273 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 65
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=1000881544
+
+Write to device done in 410.267 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 668.433 ms.
+
+Computation done in 313.929 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 66
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=-371798648
+
+Write to device done in 402.636 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 665.860 ms.
+
+Computation done in 308.869 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 67
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=1649859976
+
+Write to device done in 404.155 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 665.668 ms.
+
+Computation done in 309.394 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 68
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=-78660216
+
+Write to device done in 471.877 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 709.580 ms.
+
+Computation done in 311.252 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 69
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=-1142305400
+
+Write to device done in 402.779 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 665.639 ms.
+
+Computation done in 301.901 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 70
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=637246856
+
+Write to device done in 397.600 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 674.457 ms.
+
+Computation done in 317.025 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 71
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=1895980424
+
+Write to device done in 406.117 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 672.245 ms.
+
+Computation done in 304.730 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 72
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=-579015288
+
+Write to device done in 437.240 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 664.210 ms.
+
+Computation done in 308.895 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 73
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=-1819366008
+
+Write to device done in 461.131 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 668.832 ms.
+
+Computation done in 298.258 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 74
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=588705160
+
+Write to device done in 405.805 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 664.946 ms.
+
+Computation done in 318.284 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 75
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=-951444088
+
+Write to device done in 407.694 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 659.644 ms.
+
+Computation done in 302.635 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 76
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=2136354184
+
+Write to device done in 406.568 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 666.815 ms.
+
+Computation done in 303.796 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 77
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=1552502152
+
+Write to device done in 408.697 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 670.442 ms.
+
+Computation done in 309.093 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 78
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=-1252328056
+
+Write to device done in 411.223 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 664.161 ms.
+
+Computation done in 300.958 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 79
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=-399942264
+
+Write to device done in 405.701 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 672.839 ms.
+
+Computation done in 308.293 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 80
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=-1707545208
+
+Write to device done in 411.143 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 665.236 ms.
+
+Computation done in 299.177 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 81
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=-754549368
+
+Write to device done in 398.287 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 673.739 ms.
+
+Computation done in 304.112 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 82
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=351915400
+
+Write to device done in 456.114 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 661.770 ms.
+
+Computation done in 316.425 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 83
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=757079432
+
+Write to device done in 459.211 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 659.204 ms.
+
+Computation done in 316.126 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 84
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=-1216189048
+
+Write to device done in 399.969 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 672.971 ms.
+
+Computation done in 300.837 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 85
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=907066760
+
+Write to device done in 401.007 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 665.461 ms.
+
+Computation done in 314.360 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 86
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=-979341944
+
+Write to device done in 449.411 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 674.056 ms.
+
+Computation done in 303.752 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 87
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=-2120565368
+
+Write to device done in 400.907 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 665.568 ms.
+
+Computation done in 302.421 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 88
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=1665236360
+
+Write to device done in 398.180 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 673.663 ms.
+
+Computation done in 309.307 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 89
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=1208790408
+
+Write to device done in 429.800 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 666.803 ms.
+
+Computation done in 312.609 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 90
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=-212357752
+
+Write to device done in 404.599 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 666.285 ms.
+
+Computation done in 311.271 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 91
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=-1854263928
+
+Write to device done in 408.780 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 666.222 ms.
+
+Computation done in 299.516 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 92
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=325352840
+
+Write to device done in 401.271 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 673.623 ms.
+
+Computation done in 316.308 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 93
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=-1056281208
+
+Write to device done in 400.179 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 673.735 ms.
+
+Computation done in 300.652 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 94
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=1870425480
+
+Write to device done in 456.103 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 702.104 ms.
+
+Computation done in 304.975 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 95
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=-1027449464
+
+Write to device done in 407.114 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 672.657 ms.
+
+Computation done in 300.463 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 96
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=780721544
+
+Write to device done in 403.914 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 666.483 ms.
+
+Computation done in 316.374 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 97
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=1615211912
+
+Write to device done in 406.432 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 666.816 ms.
+
+Computation done in 309.551 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 98
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=-436818552
+
+Write to device done in 399.158 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 666.260 ms.
+
+Computation done in 308.223 ms.
+Traceback saved in result.txt
+
+BSIZE: 4096, PAR: 32, run 99
+Initialization
+Using version 5 (v5)
+Using kernel file: ./bin_fpga/./nw_kernel_v5.aocx
+Reprogramming device with handle 1
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23040
+data_size = 530887681, ref_size = 530864640
+BSIZE = 4096
+PAR = 32
+num_devices=1, device=152821128
+
+Write to device done in 408.980 ms.
+WG size of kernel = 4096 
+worksize = 23040
+
+Read from device done in 665.621 ms.
+
+Computation done in 314.383 ms.
+Traceback saved in result.txt
+

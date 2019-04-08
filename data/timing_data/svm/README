@@ -1,0 +1,18 @@
+data_2048_32.txt is the raw output from the program that contains all of the
+100 execution runs for running the program with explicit reads/writes. 
+
+data_2048_32_svm_harp8_with_alloc.txt is the raw output from the program that
+contains all of the 100 execution runs for running the program using the SVM
+feature.
+
+dev_write.txt holds 100 execution runs for explicit writes to device memory.
+
+dev_read.txt holds 100 execution runs for explicit reads from device memory.
+
+exec_time_no_alloc.txt holds 100 execution runs for execution time of the
+kernel that is preceded and followed by explicit writes and reads,
+respectively.
+
+svm_exec_time.txt holds 100 execution runs for using SVM feature. This data is
+collected by recording the time it takes to allocate shared memory buffers
+between CPU+FPGA, as well as the execution time of the kernel.

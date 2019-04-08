@@ -1,0 +1,2 @@
+compile_times.txt holds the execution time for all quartus calls for building
+each kernel.

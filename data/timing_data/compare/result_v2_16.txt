@@ -1,0 +1,2000 @@
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=-630907512
+
+Write to device done in 797.000 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 671.755 ms.
+
+Computation done in 16815.762 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=1028214152
+
+Write to device done in 896.885 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 661.784 ms.
+
+Computation done in 16835.065 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=1700195720
+
+Write to device done in 824.776 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 671.451 ms.
+
+Computation done in 16841.051 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=1819221384
+
+Write to device done in 797.107 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 673.340 ms.
+
+Computation done in 16780.927 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=-1443349112
+
+Write to device done in 797.634 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 670.178 ms.
+
+Computation done in 16876.256 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=1305566600
+
+Write to device done in 796.812 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 668.045 ms.
+
+Computation done in 16853.609 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=-2112795256
+
+Write to device done in 796.695 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 670.371 ms.
+
+Computation done in 16868.988 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=1984617864
+
+Write to device done in 808.187 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 679.261 ms.
+
+Computation done in 16811.133 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=-1061433976
+
+Write to device done in 814.619 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 671.089 ms.
+
+Computation done in 16928.921 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=382332296
+
+Write to device done in 903.564 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 671.777 ms.
+
+Computation done in 16889.127 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=267726216
+
+Write to device done in 835.011 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 662.907 ms.
+
+Computation done in 16837.072 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=2027138440
+
+Write to device done in 911.769 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 670.202 ms.
+
+Computation done in 16851.907 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=-126169720
+
+Write to device done in 793.635 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 679.937 ms.
+
+Computation done in 16866.617 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=-441598584
+
+Write to device done in 792.507 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 680.491 ms.
+
+Computation done in 16831.510 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=590953864
+
+Write to device done in 821.305 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 662.044 ms.
+
+Computation done in 16758.619 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=1293483400
+
+Write to device done in 905.341 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 664.546 ms.
+
+Computation done in 16798.235 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=-2087318136
+
+Write to device done in 904.072 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 663.379 ms.
+
+Computation done in 16850.453 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=367213960
+
+Write to device done in 901.506 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 661.889 ms.
+
+Computation done in 16832.400 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=-1994711672
+
+Write to device done in 798.049 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 671.005 ms.
+
+Computation done in 16836.881 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=1000181128
+
+Write to device done in 798.424 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 673.214 ms.
+
+Computation done in 16898.635 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=-207135352
+
+Write to device done in 795.458 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 668.410 ms.
+
+Computation done in 16812.540 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=-1784914552
+
+Write to device done in 887.608 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 656.273 ms.
+
+Computation done in 16740.619 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=1032134024
+
+Write to device done in 797.562 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 670.948 ms.
+
+Computation done in 16811.753 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=-728625784
+
+Write to device done in 896.786 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 668.261 ms.
+
+Computation done in 16813.056 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=1498459528
+
+Write to device done in 891.131 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 670.311 ms.
+
+Computation done in 16874.957 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=1917615496
+
+Write to device done in 796.034 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 672.943 ms.
+
+Computation done in 16872.365 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=1350552968
+
+Write to device done in 797.929 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 679.565 ms.
+
+Computation done in 16850.841 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=-750113400
+
+Write to device done in 796.751 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 670.606 ms.
+
+Computation done in 16844.701 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=1255460232
+
+Write to device done in 793.673 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 679.611 ms.
+
+Computation done in 16780.873 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=1794018696
+
+Write to device done in 793.854 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 674.006 ms.
+
+Computation done in 16827.066 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=1488194952
+
+Write to device done in 796.142 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 671.508 ms.
+
+Computation done in 16775.419 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=-2027029112
+
+Write to device done in 799.484 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 673.421 ms.
+
+Computation done in 16883.649 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=-1775800952
+
+Write to device done in 816.429 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 657.442 ms.
+
+Computation done in 16856.046 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=1961999752
+
+Write to device done in 792.763 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 679.470 ms.
+
+Computation done in 16755.274 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=-824185464
+
+Write to device done in 799.856 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 675.973 ms.
+
+Computation done in 16757.305 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=-775250552
+
+Write to device done in 793.873 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 677.210 ms.
+
+Computation done in 16843.675 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=-951132792
+
+Write to device done in 794.353 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 680.241 ms.
+
+Computation done in 16735.045 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=-1780781688
+
+Write to device done in 796.124 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 666.818 ms.
+
+Computation done in 16814.561 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=-1923744376
+
+Write to device done in 793.464 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 672.246 ms.
+
+Computation done in 16799.588 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=-332403320
+
+Write to device done in 793.976 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 680.475 ms.
+
+Computation done in 16786.176 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=2066251144
+
+Write to device done in 878.042 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 664.395 ms.
+
+Computation done in 16825.532 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=-1336889976
+
+Write to device done in 793.663 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 678.029 ms.
+
+Computation done in 16859.720 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=1175752072
+
+Write to device done in 799.262 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 673.274 ms.
+
+Computation done in 16776.597 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=155291016
+
+Write to device done in 794.763 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 673.174 ms.
+
+Computation done in 16832.379 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=-648561272
+
+Write to device done in 792.929 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 678.863 ms.
+
+Computation done in 16863.887 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=471178632
+
+Write to device done in 797.283 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 677.368 ms.
+
+Computation done in 16890.391 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=694455688
+
+Write to device done in 799.725 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 673.320 ms.
+
+Computation done in 16886.503 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=1660530056
+
+Write to device done in 793.120 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 678.453 ms.
+
+Computation done in 16765.313 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=-1260520056
+
+Write to device done in 799.139 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 671.928 ms.
+
+Computation done in 16834.775 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=-603095672
+
+Write to device done in 800.901 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 672.552 ms.
+
+Computation done in 16786.235 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=-1432232568
+
+Write to device done in 793.909 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 680.240 ms.
+
+Computation done in 16860.454 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=-99123832
+
+Write to device done in 796.111 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 672.343 ms.
+
+Computation done in 16840.318 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=997240200
+
+Write to device done in 827.387 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 686.779 ms.
+
+Computation done in 16838.269 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=-2048119416
+
+Write to device done in 796.824 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 671.213 ms.
+
+Computation done in 16833.300 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=422059400
+
+Write to device done in 801.229 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 670.806 ms.
+
+Computation done in 16889.145 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=1261653384
+
+Write to device done in 801.402 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 670.436 ms.
+
+Computation done in 16800.149 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=-403612280
+
+Write to device done in 795.683 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 668.374 ms.
+
+Computation done in 16796.365 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=421436808
+
+Write to device done in 793.362 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 677.108 ms.
+
+Computation done in 16883.717 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=1568181640
+
+Write to device done in 799.505 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 673.174 ms.
+
+Computation done in 16791.008 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=923717000
+
+Write to device done in 793.676 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 679.674 ms.
+
+Computation done in 16806.962 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=417099144
+
+Write to device done in 810.992 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 660.967 ms.
+
+Computation done in 16934.174 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=-1117377144
+
+Write to device done in 823.533 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 666.001 ms.
+
+Computation done in 16740.090 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=-806552184
+
+Write to device done in 794.206 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 672.301 ms.
+
+Computation done in 16851.450 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=928034184
+
+Write to device done in 793.366 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 677.452 ms.
+
+Computation done in 16814.701 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=-87786104
+
+Write to device done in 797.323 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 672.903 ms.
+
+Computation done in 16834.961 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=-1522336376
+
+Write to device done in 794.204 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 671.642 ms.
+
+Computation done in 16824.142 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=1703234952
+
+Write to device done in 796.417 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 670.527 ms.
+
+Computation done in 16880.020 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=-1340256888
+
+Write to device done in 796.673 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 671.059 ms.
+
+Computation done in 16923.480 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=-1502904952
+
+Write to device done in 796.800 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 672.963 ms.
+
+Computation done in 16826.655 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=-1192747640
+
+Write to device done in 798.212 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 671.292 ms.
+
+Computation done in 16870.190 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=1354583432
+
+Write to device done in 796.829 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 671.304 ms.
+
+Computation done in 16895.388 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=1571974536
+
+Write to device done in 796.591 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 666.313 ms.
+
+Computation done in 16815.992 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=1750007176
+
+Write to device done in 794.193 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 673.774 ms.
+
+Computation done in 16795.302 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=1837239688
+
+Write to device done in 794.388 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 665.846 ms.
+
+Computation done in 16804.597 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=225574280
+
+Write to device done in 794.791 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 670.713 ms.
+
+Computation done in 16774.067 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=-1046147704
+
+Write to device done in 835.524 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 663.541 ms.
+
+Computation done in 16859.688 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=1610341768
+
+Write to device done in 814.626 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 671.376 ms.
+
+Computation done in 16774.358 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=-556212856
+
+Write to device done in 846.027 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 671.926 ms.
+
+Computation done in 16852.901 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=538656136
+
+Write to device done in 797.620 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 671.490 ms.
+
+Computation done in 16755.572 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=-1825325688
+
+Write to device done in 793.188 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 678.651 ms.
+
+Computation done in 16870.567 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=-929804920
+
+Write to device done in 811.322 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 658.435 ms.
+
+Computation done in 16869.253 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=1105636744
+
+Write to device done in 902.281 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 670.097 ms.
+
+Computation done in 16868.503 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=-330027640
+
+Write to device done in 802.434 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 670.915 ms.
+
+Computation done in 16839.980 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=-1933329016
+
+Write to device done in 893.681 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 670.580 ms.
+
+Computation done in 16812.819 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=-661189240
+
+Write to device done in 796.587 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 671.177 ms.
+
+Computation done in 16868.331 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=1859386760
+
+Write to device done in 794.388 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 671.344 ms.
+
+Computation done in 16787.663 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=-1423356536
+
+Write to device done in 796.025 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 670.365 ms.
+
+Computation done in 16886.326 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=-2028708472
+
+Write to device done in 796.038 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 668.453 ms.
+
+Computation done in 16787.165 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=-1685246584
+
+Write to device done in 828.336 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 664.306 ms.
+
+Computation done in 16860.060 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=1727397256
+
+Write to device done in 794.766 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 671.776 ms.
+
+Computation done in 16828.863 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=431115656
+
+Write to device done in 826.266 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 661.779 ms.
+
+Computation done in 16895.225 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=-1821655672
+
+Write to device done in 792.284 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 679.426 ms.
+
+Computation done in 16842.947 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=-516932216
+
+Write to device done in 797.667 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 670.826 ms.
+
+Computation done in 16784.881 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=1554910600
+
+Write to device done in 796.097 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 673.178 ms.
+
+Computation done in 16827.936 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=-2104193656
+
+Write to device done in 793.738 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 673.372 ms.
+
+Computation done in 16854.205 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=-98480760
+
+Write to device done in 797.153 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 670.942 ms.
+
+Computation done in 16818.985 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=731430280
+
+Write to device done in 793.473 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 678.734 ms.
+
+Computation done in 16821.711 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=598859144
+
+Write to device done in 794.309 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 680.291 ms.
+
+Computation done in 16812.665 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=550096264
+
+Write to device done in 799.553 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 679.591 ms.
+
+Computation done in 16759.113 ms.
+Traceback saved in result.txt
+argc= 4
+enable_traceback = 1
+max_rows = 23041, max_cols = 23041
+num_rows = 23041, num_cols = 23041
+data_size = 530887681, ref_size = 530887681
+BSIZE = 16
+PAR = 4
+num_devices=1, device=-1761444472
+
+Write to device done in 795.997 ms.
+WG size of kernel = 16 
+worksize = 23040
+global_work_size = 23040
+local_work_size = 16
+num_blks = 1440
+
+Read from device done in 673.600 ms.
+
+Computation done in 16868.172 ms.
+Traceback saved in result.txt

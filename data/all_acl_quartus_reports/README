@@ -1,0 +1,11 @@
+This directory holds all of the acl_quartus_report.txt files generated for each
+build of a given kernel.
+
+Sub-directory titles with one number indicate the BSIZE parameter for that
+particular kernel build.
+
+Sub-directory titles with two numbers indicate the BSIZE and PAR parameters,
+respectively, for that particular kernel build.
+
+The directory dummy holds the acl_quartus_report.txt file for a build of a
+kernel with no actual computation.

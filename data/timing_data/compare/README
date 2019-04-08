@@ -1,0 +1,7 @@
+.txt files hold the raw output for 100 execution runs of a given kernel
+version.
+
+.csv files are the extracted run times from the .txt files.
+
+For any files preceded by result_v0 or result_v2, the number in those file
+titles indicate what the parameter BSIZE was set to in those program runs.

@@ -1,0 +1,69 @@
+# These are pieces of the membw Makefile from the harp example.
+# This file should be included to link all of the appropriate HARP paths and
+# includes.
+
+# Start HARP stuff
+# This is a GNU Makefile.
+
+# It can be used to compile an OpenCL program with
+# the Altera SDK for OpenCL.
+# See README.txt for more information.
+
+
+# You must configure ALTERAOCLSDKROOT to point the root directory of the Altera SDK for OpenCL
+# software installation.
+# See http://www.altera.com/literature/hb/opencl-sdk/aocl_getting_started.pdf 
+# for more information on installing and configuring the Altera SDK for OpenCL.
+
+
+ifeq ($(VERBOSE),1)
+ECHO := @echo HI
+else
+ECHO := @
+endif
+
+#TARGET := mem_bandwidth
+
+# Where is the Altera SDK for OpenCL software?
+ifeq ($(wildcard $(ALTERAOCLSDKROOT)),)
+$(error Set ALTERAOCLSDKROOT to the root directory of the Altera SDK for OpenCL software installation)
+endif
+ifeq ($(wildcard $(ALTERAOCLSDKROOT)/host/include/CL/opencl.h),)
+$(error Set ALTERAOCLSDKROOT to the root directory of the Altera SDK for OpenCL software installation.)
+endif
+
+# Directories.
+#HOST_DIR := host
+#TARGET_DIR := bin
+#INC_DIRS := host/inc ../common_harp/inc ../extlibs/inc 
+INC_DIRS := ../common_harp/inc 
+
+#TODO: this
+# All include files.
+INC_FILES := $(foreach D,$(INC_DIRS),$(wildcard $D/*.h))
+
+#TODO: this
+# Source files.
+SRCS := $(wildcard ../common_harp/src/AOCLUtils/*.cpp) $(wildcard host/src/*.cpp)
+
+# Libraries.
+LIBS :=
+
+# Compiler.
+#CXX := g++
+
+#TODO: this
+# OpenCL compile and link flags.
+AOCL_COMPILE_CONFIG := $(shell aocl compile-config)
+AOCL_LINK_CONFIG := $(shell aocl link-config)
+
+# Compilation flags
+ifeq ($(DEBUG),1)
+CXXFLAGS += -g -D__USE_XOPEN2K8
+else
+CXXFLAGS += -O2 -D__USE_XOPEN2K8
+endif
+CXXFLAGS+= -Wall -I$AALSDK/include -I/usr/local/include -DHAVE_CONFIG_H -DTESTB -g -L$AALSDK/lib  -L/usr/local/lib 
+
+.PHONY : all clean
+

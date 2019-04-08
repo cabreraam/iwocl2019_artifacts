@@ -1,0 +1,8 @@
+The directory compare holds the execution time data for the program runs 
+compared to previous work.
+
+The directory sweep holds the execution time data for the design space search
+for Kernel Version v5.
+
+The directory svm holds the execution time data for comparing explicit reads
+and writes to FPGA memory against using the provided SVM feature.
