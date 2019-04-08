@@ -6,7 +6,7 @@ This repository contains the most recent version of the artifacts (code and
 data) associated with our IWOCL'19 paper. 
 
 The snapshot of the code at the time of publication is hosted at [WU 
-OpenScholarship](https://doi.org/10.7936/m2yq-a123) for 
+OpenScholarship](https://doi.org/10.7936/m2yq-a123). 
 
 
 ## Build Information 
