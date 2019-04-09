@@ -28,7 +28,7 @@ To build kernel Version 5, issue the command:
 aoc nw_kernel_v5.cl -o bin_fpga/nw_kernel_v5_${bsize}_${par}.aocx \
   --board bdw_fpga_v1.0 -v --report -g -DBSIZE=${bsize} -DPAR=${par}
 
-`
+```
 
 where `bsize` and `par` set the `BSIZE` and `PAR` parameters that you wish to
 use. 
