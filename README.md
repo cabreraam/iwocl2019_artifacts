@@ -114,7 +114,18 @@ doi:[10.1145/3318170.3318180](https://www.iwocl.org/iwocl-2019/conference-progra
 - Anthony M. Cabrera and Roger D. Chamberlain, "Exploring Portability and 
   Performance of OpenCL FPGA Kernels on Intel HARPv2: Research Artifacts", in  
   WashU OpenScholarship", April 2019.
-doi:[10.7936/m2yq-a123](https://www.iwocl.org/iwocl-2019/conference-program/)
+  doi:[10.7936/m2yq-a123](https://www.iwocl.org/iwocl-2019/conference-program/)
+
+To cite this work, you can use the following BibTeX entry
+```
+@inproceedings{cabrera2019exploring,
+  title={Exploring Portability and Performance of OpenCL FPGA Kernels on Intel
+HARPv2.},
+  author={Anthony M. Cabrera and Roger D. Chamberlain},
+  booktitle={IWOCL},
+  year={2019}
+}
+```
 
 ## Contact
 
