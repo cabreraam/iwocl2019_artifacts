@@ -89,7 +89,7 @@ version=$1
 ./nw_harp_test 23040 10 1 ${version} 
 ```
 
-The script takes the kernel version (i.e., `v0`, `v1`, `v2`, `v3`, or `v5) as a
+The script takes the kernel version (i.e., `v0`, `v1`, `v2`, `v3`, or `v5`) as a
 command-line argument.
 
 The arguments to the application binary are the (square size) of the NW
