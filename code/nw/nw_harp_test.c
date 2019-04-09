@@ -265,9 +265,6 @@ int main(int argc, char **argv)
 
 	// alignedMalloc is in opencl/common/opencl_util.h
 	int *reference = (int *)alignedMalloc(ref_size * sizeof(int));
-#ifdef VERIFY
-	int *reference_cpu = (int *)alignedMalloc(data_size * sizeof(int));
-#endif
 	int *input_itemsets = (int *)alignedMalloc(data_size * sizeof(int));
 	int *output_itemsets = (int *)alignedMalloc(ref_size * sizeof(int));
 
@@ -574,118 +571,77 @@ int main(int argc, char **argv)
 		CL_SAFE_CALL( clSetKernelArg(kernel1, 5, sizeof(cl_int), (void*) &loop_exit       ) );
 	}
 
-#if defined(AOCL_BOARD_a10pl4_dd4gb_gx115) || defined(AOCL_BOARD_p385a_sch_ax115)
-	#pragma omp parallel num_threads(2) shared(flag)
-	{
-		if (omp_get_thread_num() == 0)
-		{
-			#ifdef AOCL_BOARD_a10pl4_dd4gb_gx115
-				power = GetPowerFPGA(&flag);
-			#else
-				power = GetPowerFPGA(&flag, device_list);
-			#endif
-		}
-		else
-		{
-			#pragma omp barrier
-#endif
-			// This block happens regardless of the #ifdef. Formatted kinda wonky
-			// though.
-			// Beginning of timing point
-			//GetTime(compute_start);
-
 			// NDRange versions
-			if (is_ndrange_kernel(version_number))
-			{
-				printf("global_work_size = %d\n", BSIZE * worksize/BSIZE);
-				printf("local_work_size = %d\n", BSIZE);
-				printf("num_blks = %d\n", worksize/BSIZE);
-				GetTime(compute_start);
-				for(int blk = 1; blk <= worksize/BSIZE; blk++)
-				{
-					global_work[0] = BSIZE * blk;
-					local_work[0]  = BSIZE;
-
-					CL_SAFE_CALL( clSetKernelArg(kernel1, 4, sizeof(cl_int), (void*) &blk) );
-					CL_SAFE_CALL( clEnqueueNDRangeKernel(cmd_queue1, kernel1, 2, NULL, 
-						global_work, local_work, 0, 0, NULL) );
-					//printf("global_work_size = %d, blk = %d, local_work_size = %d worked\n", global_work[0], blk, local_work[0] );
-				}
-				clFinish(cmd_queue1);
-
-				for(int blk = worksize/BSIZE - 1; blk >= 1; blk--)
-				{
-					global_work[0] = BSIZE * blk;
-					local_work[0]  = BSIZE;
-
-					CL_SAFE_CALL( clSetKernelArg(kernel2, 4, sizeof(cl_int), (void*) &blk) );
-					CL_SAFE_CALL( clEnqueueNDRangeKernel(cmd_queue1, kernel2, 2, NULL, 
-						global_work, local_work, 0, 0, NULL) );
-				}
-				clFinish(cmd_queue1);
-				GetTime(compute_end);
-			}
-			else if (version_number < 5)
-			{
-				GetTime(compute_start);
-				CL_SAFE_CALL(clEnqueueTask(cmd_queue1, kernel1, 0, NULL, NULL));
-				clFinish(cmd_queue1);
-				GetTime(compute_end);
-			}
-			else
-			{
-				GetTime(compute_start);
-				//int num_diags  = max_rows - 1; // -1 since last row is invalid
-				int num_diags  = max_rows - 1; // -1 since last row is invalid
-				int comp_bsize = BSIZE - 1;
-				int last_diag  = (num_diags % comp_bsize == 0) ? num_diags : num_diags + comp_bsize - (num_diags % comp_bsize);
-				int num_blocks = last_diag / comp_bsize;
-
-				for (int bx = 0; bx < num_blocks; bx++)
-				{
-					int block_offset = bx * comp_bsize;
-
-					CL_SAFE_CALL( clSetKernelArg(kernel1, 6, sizeof(cl_int), (void*) &block_offset) );
-
-					CL_SAFE_CALL( clEnqueueTask(cmd_queue1, kernel1, 0, NULL, NULL) );
-
-					clFinish(cmd_queue1);
-				}
-				GetTime(compute_end);
-			}
-
-			// End of timing point
-			//GetTime(compute_end);
-
-#if defined(AOCL_BOARD_a10pl4_dd4gb_gx115) || defined(AOCL_BOARD_p385a_sch_ax115)
-			flag = 1;
+	if (is_ndrange_kernel(version_number))
+	{
+		printf("global_work_size = %d\n", BSIZE * worksize/BSIZE);
+		printf("local_work_size = %d\n", BSIZE);
+		printf("num_blks = %d\n", worksize/BSIZE);
+		GetTime(compute_start);
+		for(int blk = 1; blk <= worksize/BSIZE; blk++)
+		{
+			global_work[0] = BSIZE * blk;
+			local_work[0]  = BSIZE;
+		
+			CL_SAFE_CALL( clSetKernelArg(kernel1, 4, sizeof(cl_int), (void*) &blk) );
+			CL_SAFE_CALL( clEnqueueNDRangeKernel(cmd_queue1, kernel1, 2, NULL, 
+				global_work, local_work, 0, 0, NULL) );
+			//printf("global_work_size = %d, blk = %d, local_work_size = %d worked\n", global_work[0], blk, local_work[0] );
 		}
+		clFinish(cmd_queue1);
+		
+		for(int blk = worksize/BSIZE - 1; blk >= 1; blk--)
+		{
+			global_work[0] = BSIZE * blk;
+			local_work[0]  = BSIZE;
+		
+			CL_SAFE_CALL( clSetKernelArg(kernel2, 4, sizeof(cl_int), (void*) &blk) );
+			CL_SAFE_CALL( clEnqueueNDRangeKernel(cmd_queue1, kernel2, 2, NULL, 
+				global_work, local_work, 0, 0, NULL) );
+		}
+			clFinish(cmd_queue1);
+			GetTime(compute_end);
 	}
-#endif
+	else if (version_number < 5)
+	{
+		GetTime(compute_start);
+		CL_SAFE_CALL(clEnqueueTask(cmd_queue1, kernel1, 0, NULL, NULL));
+		clFinish(cmd_queue1);
+		GetTime(compute_end);
+	}
+	else
+	{
+		GetTime(compute_start);
+		//int num_diags  = max_rows - 1; // -1 since last row is invalid
+		int num_diags  = max_rows - 1; // -1 since last row is invalid
+		int comp_bsize = BSIZE - 1;
+		int last_diag  = (num_diags % comp_bsize == 0) ? num_diags : num_diags + comp_bsize - (num_diags % comp_bsize);
+		int num_blocks = last_diag / comp_bsize;
+	
+		for (int bx = 0; bx < num_blocks; bx++)
+		{
+			int block_offset = bx * comp_bsize;
+	
+			CL_SAFE_CALL( clSetKernelArg(kernel1, 6, sizeof(cl_int), (void*) &block_offset) );
+			CL_SAFE_CALL( clEnqueueTask(cmd_queue1, kernel1, 0, NULL, NULL) );
+	
+			clFinish(cmd_queue1);
+		}
+		GetTime(compute_end);
+	}
 
+	// Record time it takes to read results
 	GetTime(output_start);
 	err = clEnqueueReadBuffer(cmd_queue1, input_itemsets_d, 1, 0, 
 		ref_size * sizeof(int), output_itemsets, 0, 0, 0);
-    GetTime(output_end);
-    outputTime = TimeDiff(output_start, output_end);
-    printf("\nRead from device done in %0.3lf ms.\n", outputTime);
+	GetTime(output_end);
+	outputTime = TimeDiff(output_start, output_end);
+	printf("\nRead from device done in %0.3lf ms.\n", outputTime);
 	clFinish(cmd_queue1);
 
 	computeTime = TimeDiff(compute_start, compute_end);
 	printf("\nComputation done in %0.3lf ms.\n", computeTime);
 
-#if defined(AOCL_BOARD_a10pl4_dd4gb_gx115) || defined(AOCL_BOARD_p385a_sch_ax115)
-	energy = GetEnergyFPGA(power, computeTime);
-	if (power != -1) // -1 --> sensor read failure
-	{
-		printf("Total energy used is %0.3lf jouls.\n", energy);
-		printf("Average power consumption is %0.3lf watts.\n", power);
-	}
-	else
-	{
-		printf("Failed to read power values from the sensor!\n");
-	}
-#endif
 
 #ifdef OUTPUT 
 	printf("==============================================================\n");
@@ -701,7 +657,6 @@ int main(int argc, char **argv)
 		}
 	}
 	fclose(fout);
-	//fclose(fout_cpu);
 	printf("Output itemsets saved in output_itemsets.txt\n");
 
 	printf("==============================================================\n");
@@ -712,29 +667,24 @@ int main(int argc, char **argv)
 	{
 	  FILE *fpo = fopen("result.txt","w");
 	  fprintf(fpo, "max_cols: %d, penalty: %d\n", max_cols - 1, penalty);
-	  //for (int i = max_cols - 2,  j = max_rows - 2; i>1 && j>0;){
-	  //for (int i = max_cols - 2,  j = max_rows - 2; i>=0 && j>=0;){ //OG
-	  //for (int i = max_cols - 2,  j = max_rows - 2; i>0 && j>=0;){
 	  for (int i = max_cols - 2,  j = max_rows - 2; i>=0 && j>=0;){
 	    fprintf(fpo, "[%d, %d] ", i, j);
 	    int nw = 0, n = 0, w = 0, traceback;
-	    if (i == 0 && j == 0) {
+	    if (i == 0 && j == 0) 
+			{
 	      fprintf(fpo, "(output: %d)\n", output_itemsets[0]);
 	      break;
 	    }
-	    if (i > 0 && j >= 0){
-	      /*nw = output_itemsets[(i - 1) * max_cols + j - 1];
-	      w  = output_itemsets[ i * max_cols + j - 1 ];
-	      n  = output_itemsets[(i - 1) * max_cols + j];*/
+	    if (i > 0 && j >= 0)
+			{
 	      nw = output_itemsets[(i - 1) * num_cols + j - 1];
 	      w  = output_itemsets[ i * num_cols + j - 1 ];
 	      n  = output_itemsets[(i - 1) * num_cols + j];
 	      fprintf(fpo, "(nw: %d, w: %d, n: %d, ref: %d) ",
-		      //nw, w, n, reference[i * max_cols+j]);
-		      //nw, w, n, reference[i+1 * num_cols+j+1]); // for ver 5
-		      nw, w, n, reference[i * num_cols+j]); // for ver 5
+		      nw, w, n, reference[i * num_cols+j]); 
 	    }
-	    else if (i == 0){
+	    else if (i == 0)
+			{
 	      nw = n = LIMIT;
 	      w  = output_itemsets[ i * num_cols + j - 1 ];
 	    }
@@ -745,15 +695,14 @@ int main(int argc, char **argv)
 	    else{
 	    }
 
-	    //traceback = maximum(nw, w, n);
 	    int new_nw, new_w, new_n;
 	    new_nw = nw + reference[i * num_cols + j];
-	    //new_nw = nw + reference[i * num_cols + j-1]; //for ver 5
 	    new_w = w - penalty;
 	    new_n = n - penalty;
 
 	    traceback = maximum(new_nw, new_w, new_n);
-	    if (traceback != output_itemsets[i * num_cols +j]) {
+	    if (traceback != output_itemsets[i * num_cols +j]) 
+			{
 	      fprintf(stderr, "Mismatch at (%d, %d). traceback: %d, \
 					output_itemsets: %d\n",
 		      i, j, traceback, output_itemsets[i * num_cols+j]);
@@ -761,16 +710,23 @@ int main(int argc, char **argv)
 	    }
 	    fprintf(fpo, "(output: %d)", traceback);
 
-	    if(traceback == new_nw) {
+	    if(traceback == new_nw) 
+			{
 	      traceback = nw;
 	      fprintf(fpo, "(->nw) ");
-	    } else if(traceback == new_w) {
+	    } 
+			else if(traceback == new_w) 
+			{
 	      traceback = w;
 	      fprintf(fpo, "(->w) ");
-	    } else if(traceback == new_n) {
+	    } 
+			else if(traceback == new_n) 
+			{
 	      traceback = n;
 	      fprintf(fpo, "(->n) ");
-	    } else {
+	    } 
+			else 
+			{
 	      fprintf(stderr, "Error: inconsistent traceback at (%d, %d)\n", i, j);
 	      abort();
 	    }
@@ -778,99 +734,30 @@ int main(int argc, char **argv)
 	    fprintf(fpo, "\n");
 
 	    if(traceback == nw)
-	    {i--; j--; continue;}
+	    {
+				i--; 
+				j--; 
+				continue;
+			}
 
 	    else if(traceback == w)
-	    {j--; continue;}
+	    {
+				j--; 
+				continue;
+			}
 
 	    else if(traceback == n)
-	    {i--; continue;}
+	    {
+				i--; 
+				continue;
+			}
 
-	    else
-	      ;
+	    else;
 	  }
 	  fclose(fpo);
 	  printf("Traceback saved in result.txt\n");
 	}
 	
-/* ending here, every max_cols is decremented */
-#ifdef VERIFY_
-	if (enable_traceback)
-	{
-	  FILE *fpo = fopen("result_cpu.txt","w");
-	  fprintf(fpo, "max_cols: %d, penalty: %d\n", max_cols - 1, penalty);
-	  for (int i = max_cols - 2,  j = max_rows - 2; i>=0 && j>=0;){
-	    fprintf(fpo, "[%d, %d] ", i, j);
-	    int nw = 0, n = 0, w = 0, traceback;
-	    if (i == 0 && j == 0) {
-	      fprintf(fpo, "(output: %d)\n", input_itemsets_cpu[0]);
-	      break;
-	    }
-	    if (i > 0 && j > 0){
-	      nw = input_itemsets_cpu[(i - 1) * max_cols + j - 1];
-	      w  = input_itemsets_cpu[ i * max_cols + j - 1 ];
-	      n  = input_itemsets_cpu[(i - 1) * max_cols + j];
-	      fprintf(fpo, "(nw: %d, w: %d, n: %d, ref: %d) ",
-		      nw, w, n, reference[i * max_cols+j]);
-	    }
-	    else if (i == 0){
-	      nw = n = LIMIT;
-	      w  = input_itemsets_cpu[ i * max_cols + j - 1 ];
-	    }
-	    else if (j == 0){
-	      nw = w = LIMIT;
-	      n = input_itemsets_cpu[(i - 1) * max_cols + j];
-	    }
-	    else{
-	    }
-
-	    int new_nw, new_w, new_n;
-	    new_nw = nw + reference[i * max_cols + j];
-	    new_w = w - penalty;
-	    new_n = n - penalty;
-
-	    traceback = maximum(new_nw, new_w, new_n);
-	    if (traceback != input_itemsets_cpu[i * max_cols+j]) {
-	      fprintf(stderr, "Mismatch at (%d, %d). traceback: %d, \
-					input_itemsets_cpu: %d\n",
-		      i, j, traceback, input_itemsets_cpu[i * max_cols+j]);
-	      //exit(1);
-	    }
-	    fprintf(fpo, "(output: %d)", traceback);
-
-	    if(traceback == new_nw) {
-	      traceback = nw;
-	      fprintf(fpo, "(->nw) ");
-	    } else if(traceback == new_w) {
-	      traceback = w;
-	      fprintf(fpo, "(->w) ");
-	    } else if(traceback == new_n) {
-	      traceback = n;
-	      fprintf(fpo, "(->n) ");
-	    } else {
-	      fprintf(stderr, "Error: inconsistent traceback at (%d, %d)\n", i, j);
-	      abort();
-	    }
-
-	    fprintf(fpo, "\n");
-
-	    if(traceback == nw)
-	    {i--; j--; continue;}
-
-	    else if(traceback == w)
-	    {j--; continue;}
-
-	    else if(traceback == n)
-	    {i--; continue;}
-
-	    else
-	      ;
-	  }
-	  fclose(fpo);
-	  printf("Traceback saved in result_cpu.txt\n");
-	} // if enable_traceback 
-#endif
-
 	// OpenCL shutdown
 	freeResources();
 
@@ -880,11 +767,6 @@ int main(int argc, char **argv)
 	free(reference);
 	free(input_itemsets);
 	free(output_itemsets);
-#ifdef VERIFY_
-	free(input_itemsets_cpu);
-	free(output_itemsets_cpu);
-	free(reference_cpu);
-#endif
 	free(source);
 
 	return 0;
