@@ -8,6 +8,11 @@ data) associated with our IWOCL'19 paper.
 The snapshot of the code at the time of publication is hosted at [WU 
 OpenScholarship](https://doi.org/10.7936/m2yq-a123). 
 
+The work done here extends the 
+[work of Zohouri et al.](https://github.com/zohourih/rodinia_fpga/) in creating 
+the initial port of a subset of the 
+[Rodinia benchmarking suite](https://rodinia.cs.virginia.edu/doku.php) 
+from GPU-centric implementations to FPGA-centric ones.
 
 ## Build Information 
 To build the code and kernels, it is assumed that you have access to a HARPv2
@@ -23,7 +28,7 @@ To build kernel Version 5, issue the command:
 aoc nw_kernel_v5.cl -o bin_fpga/nw_kernel_v5_${bsize}_${par}.aocx \
   --board bdw_fpga_v1.0 -v --report -g -DBSIZE=${bsize} -DPAR=${par}
 
-```
+`
 
 where `bsize` and `par` set the `BSIZE` and `PAR` parameters that you wish to
 use. 
@@ -31,7 +36,7 @@ use.
 
 To build kernel Version 0, issue the command:
 
-```
+```  
 aoc nw_kernel_v0.cl -o bin_fpga/nw_kernel_v0_${bsize}.aocx \
   --board bdw_fpga_v1.0 -v --report -g -DBSIZE=${bsize} 
 
